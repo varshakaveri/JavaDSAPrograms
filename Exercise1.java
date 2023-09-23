@@ -21,13 +21,8 @@ public class Exercise1 {
         list.add(53);
         list.add(75);
         list.add(12);
-        Stream var10000 = list.stream().sorted().filter((i) -> {
-            return i % 2 == 0;
-        });
-        PrintStream var10001 = System.out;
-        Objects.requireNonNull(var10001);
-        var10000.forEach(var10001::println);
-        List<String> listString = (List)list.stream().map(String::valueOf).collect(Collectors.toList());
+        list.stream().sorted().filter(i -> i % 2 == 0).forEach(System.out::println);
+        List<String> listString = list.stream().sorted().filter(i -> i%2 == 0).map(String::valueOf).collect(Collectors.toList());
         System.out.println(listString);
     }
 }
