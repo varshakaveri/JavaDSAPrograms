@@ -1,2 +1,0 @@
-# JavaDSAPrograms
-Java DSA Programs 
