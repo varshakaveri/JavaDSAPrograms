@@ -21,13 +21,19 @@ public class JavaDBProgram {
             Statement statement;
             statement = connection.createStatement();
             ResultSet resultSet;
-            resultSet = statement.executeQuery(
-                    "select * from employee");
+
             int empId;
             String empCode;
             String empName;
             Long empSalary;
 
+            String record1 = "INSERT INTO employee(emp_code,emp_name,emp_salary) VALUES('EMP_111','Mishani',520000)";
+            statement.executeUpdate(record1);
+
+            String updatedRec = "UPDATE employee SET emp_name='Yamuna' where emp_id=13";
+            statement.executeUpdate(updatedRec);
+
+            resultSet = statement.executeQuery("select * from employee");
             while (resultSet.next()) {
                 empId = resultSet.getInt("emp_id");
                 empCode = resultSet.getString("emp_code").trim();
@@ -38,6 +44,7 @@ public class JavaDBProgram {
                         + "\n Employee Name : " + empName
                         + "\n Employee Salary : " + empSalary);
             }
+
             resultSet.close();
             statement.close();
             connection.close();
