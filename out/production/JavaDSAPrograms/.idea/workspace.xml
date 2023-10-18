@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9257d8a-3ec6-44fc-8943-e69ba557d10c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDSAPrograms/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDSAPrograms/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDSAPrograms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDSAPrograms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDBProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDBProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDSAPrograms/JavaDBProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDSAPrograms/JavaDBProgram.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaDBProgram">
+  <component name="RunManager" selected="Application.JavaLeftTrianglePattern">
     <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise1" />
       <module name="JavaDSAPrograms" />
@@ -66,15 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaDBProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaDBProgram" />
-      <module name="JavaDSAPrograms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaLeftDownWardsPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaLeftDownWardsPattern" />
+    <configuration name="JavaLeftTrianglePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaLeftTrianglePattern" />
       <module name="JavaDSAPrograms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,13 +80,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaStringRepeatedNumCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaStringRepeatedNumCount" />
+      <module name="JavaDSAPrograms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JavaLeftTrianglePattern" />
+      <item itemvalue="Application.Exercise1" />
+      <item itemvalue="Application.Exercise2" />
+      <item itemvalue="Application.JavaStringRepeatedNumCount" />
+      <item itemvalue="Application.JavaRepeatedWordsCount" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaDBProgram" />
+        <item itemvalue="Application.JavaLeftTrianglePattern" />
+        <item itemvalue="Application.JavaStringRepeatedNumCount" />
         <item itemvalue="Application.JavaRepeatedWordsCount" />
         <item itemvalue="Application.Exercise2" />
         <item itemvalue="Application.Exercise1" />
-        <item itemvalue="Application.JavaLeftDownWardsPattern" />
       </list>
     </recent_temporary>
   </component>

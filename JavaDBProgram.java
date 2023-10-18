@@ -33,6 +33,8 @@ public class JavaDBProgram {
             String updatedRec = "UPDATE employee SET emp_name='Yamuna' where emp_id=13";
             statement.executeUpdate(updatedRec);
 
+            String deleteRec = "delete from employee ";
+
             resultSet = statement.executeQuery("select * from employee");
             while (resultSet.next()) {
                 empId = resultSet.getInt("emp_id");
